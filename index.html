@@ -1,38 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>PeerChat</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <meta charset="UTF-8">
+    <title>Hello JavaScript</title>
+    <script>
+        function DoSomething() {
+            window.AppWebBridge.passString("abcdeee");
+        }
+    </script>
 </head>
 <body>
 
-    <div id="videos">
-        <video class="video-player" id="user-1" autoplay playsinline></video>
-        <video class="video-player" id="user-2" autoplay playsinline></video>
-    </div>
-
-    <div id="controls">
-
-        <div class="control-container" id="camera-btn">
-            <img src="icons/camera.png" />
-        </div>
-
-        <div class="control-container" id="mic-btn">
-            <img src="icons/mic.png" />
-        </div>
-
-        <a href="lobby.html">
-            <div class="control-container" id="leave-btn">
-                <img src="icons/phone.png" />
-            </div>
-        </a>
-
-    </div>
-    
+<h1>head 태그 내의 자바스크립트</h1>
+<p>자바스크립트를 이용하면 현재 날짜와 시간 정보에도 손쉽게 접근할 수 있어요!</p>
+<button onclick="DoSomething()">코틀린에게 명령!</button>
+<p id="date"></p>
 </body>
-<script src='agora-rtm-sdk-1.4.4.js'></script>
-<script src='main.js'></script>
 </html>
