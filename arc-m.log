@@ -1,0 +1,673 @@
+22-07-22 17:02:47:7 INFO  [main] d(a) - initialize logging - rootLevel:DEBUG f:/storage/emulated/0/Android/data/com.ahranta.android.arc.hyundaiautoever/files/logs/arc-m.log
+22-07-22 17:02:47:7 INFO  [main] InitActivity(onCreate) - start activity - Fri Jul 22 17:02:47 GMT+09:00 2022
+22-07-22 17:02:47:7 DEBUG [main] InitActivity(onCreate) - simple auto startup accept num >> 5592
+22-07-22 17:02:47:7 INFO  [main] InitActivity(onCreate) - BuildConfig.DEBUG? false
+22-07-22 17:02:47:7 DEBUG [main] a(J) - # forceShutdown
+22-07-22 17:02:47:7 INFO  [main] a(Y) - # clear rpen.
+22-07-22 17:02:47:7 DEBUG [main] InitActivity(j) - not granted permission = android.permission.READ_PHONE_STATE
+22-07-22 17:02:47:7 DEBUG [main] InitActivity(j) - not granted permission = android.permission.WRITE_EXTERNAL_STORAGE
+22-07-22 17:02:47:7 DEBUG [main] InitActivity(j) - not granted permission = android.permission.RECORD_AUDIO
+22-07-22 17:03:01:9 DEBUG [main] InitActivity(onRequestPermissionsResult) - req >> [I@53c42e4
+22-07-22 17:03:01:9 DEBUG [main] InitActivity(onRequestPermissionsResult) - all permission grated.
+22-07-22 17:03:01:9 DEBUG [main] InitActivity(a) - check update main app >> http://211.47.130.231
+22-07-22 17:03:01:9 DEBUG [main] InitActivity(a) - verbose >> Build.MODEL [SM-F926N]
+22-07-22 17:03:01:9 DEBUG [main] InitActivity(a) - verbose >> Build.MANUFACTURER [samsung]
+22-07-22 17:03:01:9 DEBUG [main] InitActivity(a) - [http parameter >> k:[os] v:[android]
+22-07-22 17:03:01:9 DEBUG [main] InitActivity(a) - [http parameter >> k:[integration] v:[false]
+22-07-22 17:03:01:9 DEBUG [main] InitActivity(a) - [http parameter >> k:[model] v:[main_knox]
+22-07-22 17:03:01:9 DEBUG [main] InitActivity(a) - [http parameter >> k:[version] v:[31]
+22-07-22 17:03:01:9 DEBUG [main] InitActivity(a) - [http parameter >> k:[deviceModel] v:[SM-F926N]
+22-07-22 17:03:01:9 DEBUG [main] InitActivity(a) - [http parameter >> k:[manufacturers] v:[samsung]
+22-07-22 17:03:01:9 DEBUG [main] q(a) - [http] request >>
+22-07-22 17:03:02:2 DEBUG [Thread-8] q$2$1(handleResponse) - [req] url:http://211.47.130.231/external/getMobileBinary.do [res] code:200
+22-07-22 17:03:02:2 DEBUG [Thread-8] InitActivity$14(a) - [http response] >> {"coreBean":{"alias":"현대오토에버 SAMSUNG KNOX","appVersionCode":0,"fileName":"arc_core_samsung_knox.apk","googlePlaySupport":false,"manufacturers":"samsung","md5":"","model":"main_knox","os":"android","separateCorePackageName":"","vd":"N21","version":""},"mainBean":{"alias":"현대오토에버","appVersionCode":112,"fileName":"arc_main.apk","googlePlaySupport":false,"manufacturers":"public","md5":"","model":"main","os":"android","separateCorePackageName":"","vd":"","version":""},"result":"success","manufacturer":"samsung"}
+22-07-22 17:03:02:2 DEBUG [Thread-8] InitActivity$14(a) - result:success
+22-07-22 17:03:02:2 DEBUG [Thread-8] InitActivity$14(a) - main app verson : 112 / 143
+22-07-22 17:03:02:2 INFO  [main] m(<clinit>) - [init] sdk version ==> 31 support_compiled_sdk_version ==> 21
+22-07-22 17:03:02:2 INFO  [main] InitActivity(h) - samsung device.
+22-07-22 17:03:02:2 INFO  [main] InitActivity(h) - using inner knox sdk. min api[21] level = 31 force using knox sdk.
+22-07-22 17:03:02:2 INFO  [main] InitActivity(i) - go normal.
+22-07-22 17:03:02:2 DEBUG [main] InitActivity(i) - delay : -13446
+22-07-22 17:03:02:2 INFO  [main] InitActivity(d) - starting... main activity : class com.ahranta.android.arc.UserAcceptNumActivity
+22-07-22 17:03:02:2 DEBUG [main] UserAcceptNumActivity(onCreate) - # onCreate
+22-07-22 17:03:02:2 DEBUG [main] UserAcceptNumActivity(onCreate) - simple auto startup accept num >> 5592
+22-07-22 17:03:02:2 DEBUG [main] UserAcceptNumActivity(n) - registed broadcast receiver !!
+22-07-22 17:03:02:2 DEBUG [main] m(b) - module loader initialize.
+22-07-22 17:03:02:2 DEBUG [main] UserAcceptNumActivity(t) - app.getExtArgs():null
+22-07-22 17:03:02:2 DEBUG [main] UserAcceptNumActivity(b) - granted permission >> android.permission.READ_PHONE_STATE
+22-07-22 17:03:02:2 DEBUG [main] UserAcceptNumActivity(b) - granted permission >> android.permission.WRITE_EXTERNAL_STORAGE
+22-07-22 17:03:02:2 DEBUG [main] UserAcceptNumActivity(b) - granted permission >> android.permission.RECORD_AUDIO
+22-07-22 17:03:02:2 DEBUG [main] m(b) - module loader initialize.
+22-07-22 17:03:02:2 DEBUG [main] m(c) - init Module.
+22-07-22 17:03:02:2 INFO  [main] m(a) - [set native library path] normal app >> /data/app/~~O_co9taY0m-Rp-lKzI1rXg==/com.ahranta.android.arc.hyundaiautoever-mvTM3xg4AuDDN6AMUgraLw==/lib/arm
+22-07-22 17:03:02:2 DEBUG [main] m(c) - init Module >> native lib directory:/data/app/~~O_co9taY0m-Rp-lKzI1rXg==/com.ahranta.android.arc.hyundaiautoever-mvTM3xg4AuDDN6AMUgraLw==/lib/arm
+22-07-22 17:03:02:2 INFO  [main] m(e) - [ info ] = [samsung] [SM-F926N]
+22-07-22 17:03:02:2 INFO  [main] m(e) - getMobileBinaryInfo >> inner knox sdk.
+22-07-22 17:03:02:2 DEBUG [main] m(e) - [http parameter >> k:[os] v:[android]
+22-07-22 17:03:02:2 DEBUG [main] m(e) - [http parameter >> k:[integration] v:[false]
+22-07-22 17:03:02:2 DEBUG [main] m(e) - [http parameter >> k:[model] v:[main_knox]
+22-07-22 17:03:02:2 DEBUG [main] m(e) - [http parameter >> k:[version] v:[31]
+22-07-22 17:03:02:2 DEBUG [main] m(e) - [http parameter >> k:[deviceModel] v:[SM-F926N]
+22-07-22 17:03:02:2 DEBUG [main] m(e) - [http parameter >> k:[manufacturers] v:[samsung]
+22-07-22 17:03:02:2 DEBUG [main] m(e) - [http parameter >> k:[mainManufacturer] v:[null]
+22-07-22 17:03:02:2 DEBUG [main] q(a) - [http] request >>
+22-07-22 17:03:02:3 DEBUG [main] UserAcceptNumActivity(c_) - # prepareUpdateCheck
+22-07-22 17:03:02:3 DEBUG [Thread-9] q$2$1(handleResponse) - [req] url:http://211.47.130.231/external/getMobileBinary.do [res] code:200
+22-07-22 17:03:02:3 DEBUG [Thread-9] m$1(a) - [http response] >> {"coreBean":{"alias":"현대오토에버 SAMSUNG KNOX","appVersionCode":0,"fileName":"arc_core_samsung_knox.apk","googlePlaySupport":false,"manufacturers":"samsung","md5":"","model":"main_knox","os":"android","separateCorePackageName":"","vd":"N21","version":""},"mainBean":{"alias":"현대오토에버","appVersionCode":112,"fileName":"arc_main.apk","googlePlaySupport":false,"manufacturers":"public","md5":"","model":"main","os":"android","separateCorePackageName":"","vd":"","version":""},"result":"success","manufacturer":"samsung"}
+22-07-22 17:03:02:3 DEBUG [Thread-9] m$1(a) - result:success
+22-07-22 17:03:02:3 DEBUG [Thread-9] m$1(a) - manufacturer : samsung
+22-07-22 17:03:02:4 INFO  [Thread-9] m$1(a) - add-on[core] package name >> com.ahranta.android.arc.hyundaiautoever
+22-07-22 17:03:02:4 INFO  [Thread-9] m$1(a) - add-on[core] package installed ? PackageInfo{ee76dd7 com.ahranta.android.arc.hyundaiautoever}
+22-07-22 17:03:02:4 INFO  [Thread-9] m(a) - [set native library path] normal app >> /data/app/~~O_co9taY0m-Rp-lKzI1rXg==/com.ahranta.android.arc.hyundaiautoever-mvTM3xg4AuDDN6AMUgraLw==/lib/arm
+22-07-22 17:03:02:4 DEBUG [Thread-9] m$1(a) - store separate package name >> null
+22-07-22 17:03:02:4 DEBUG [Thread-9] m(a) - samsung?true
+22-07-22 17:03:02:4 DEBUG [Thread-9] m(a) - use_force_knox_sdk?true
+22-07-22 17:03:02:4 DEBUG [Thread-9] m(a) - use_force_knox_sdk_with_vd?true
+22-07-22 17:03:02:4 DEBUG [Thread-9] m(a) - sdk?31
+22-07-22 17:03:02:4 DEBUG [Thread-9] m(a) - [vd] strings >>>> N21
+22-07-22 17:03:02:4 INFO  [Thread-9] m(a) - force using virtual display. !! [2: api level 21 > lollipop]
+22-07-22 17:03:02:4 DEBUG [main] UserAcceptNumActivity(b) - # moduleResultNormal
+22-07-22 17:03:02:4 DEBUG [main] m(b) - module loader initialize.
+22-07-22 17:03:02:4 DEBUG [main] q(a) - [http] request >>
+22-07-22 17:03:02:5 DEBUG [Thread-16] q$2$1(handleResponse) - [req] url:http://211.47.130.231/external/getUserInfoByAcceptNum.do [res] code:200
+22-07-22 17:03:14:1 INFO  [main] InitActivity(onCreate) - start activity - Fri Jul 22 17:03:14 GMT+09:00 2022
+22-07-22 17:03:14:1 DEBUG [main] InitActivity(onCreate) - simple auto startup accept num >> 9592
+22-07-22 17:03:14:1 INFO  [main] InitActivity(onCreate) - BuildConfig.DEBUG? false
+22-07-22 17:03:14:1 DEBUG [main] a(J) - # forceShutdown
+22-07-22 17:03:14:1 INFO  [main] a(Y) - # clear rpen.
+22-07-22 17:03:14:1 DEBUG [main] InitActivity(j) - granted permission >> android.permission.READ_PHONE_STATE
+22-07-22 17:03:14:1 DEBUG [main] InitActivity(j) - granted permission >> android.permission.WRITE_EXTERNAL_STORAGE
+22-07-22 17:03:14:1 DEBUG [main] InitActivity(j) - granted permission >> android.permission.RECORD_AUDIO
+22-07-22 17:03:14:1 DEBUG [main] InitActivity(a) - check update main app >> http://211.47.130.231
+22-07-22 17:03:14:1 DEBUG [main] InitActivity(a) - verbose >> Build.MODEL [SM-F926N]
+22-07-22 17:03:14:1 DEBUG [main] InitActivity(a) - verbose >> Build.MANUFACTURER [samsung]
+22-07-22 17:03:14:1 DEBUG [main] InitActivity(a) - [http parameter >> k:[os] v:[android]
+22-07-22 17:03:14:1 DEBUG [main] InitActivity(a) - [http parameter >> k:[integration] v:[false]
+22-07-22 17:03:14:1 DEBUG [main] InitActivity(a) - [http parameter >> k:[model] v:[main_knox]
+22-07-22 17:03:14:1 DEBUG [main] InitActivity(a) - [http parameter >> k:[version] v:[31]
+22-07-22 17:03:14:1 DEBUG [main] InitActivity(a) - [http parameter >> k:[deviceModel] v:[SM-F926N]
+22-07-22 17:03:14:1 DEBUG [main] InitActivity(a) - [http parameter >> k:[manufacturers] v:[samsung]
+22-07-22 17:03:14:1 DEBUG [main] q(a) - [http] request >>
+22-07-22 17:03:14:2 DEBUG [Thread-19] q$2$1(handleResponse) - [req] url:http://211.47.130.231/external/getMobileBinary.do [res] code:200
+22-07-22 17:03:14:2 DEBUG [Thread-19] InitActivity$14(a) - [http response] >> {"coreBean":{"alias":"현대오토에버 SAMSUNG KNOX","appVersionCode":0,"fileName":"arc_core_samsung_knox.apk","googlePlaySupport":false,"manufacturers":"samsung","md5":"","model":"main_knox","os":"android","separateCorePackageName":"","vd":"N21","version":""},"mainBean":{"alias":"현대오토에버","appVersionCode":112,"fileName":"arc_main.apk","googlePlaySupport":false,"manufacturers":"public","md5":"","model":"main","os":"android","separateCorePackageName":"","vd":"","version":""},"result":"success","manufacturer":"samsung"}
+22-07-22 17:03:14:2 DEBUG [Thread-19] InitActivity$14(a) - result:success
+22-07-22 17:03:14:2 DEBUG [Thread-19] InitActivity$14(a) - main app verson : 112 / 143
+22-07-22 17:03:14:2 INFO  [main] InitActivity(h) - samsung device.
+22-07-22 17:03:14:2 INFO  [main] InitActivity(h) - using inner knox sdk. min api[21] level = 31 force using knox sdk.
+22-07-22 17:03:14:2 INFO  [main] InitActivity(i) - go normal.
+22-07-22 17:03:14:2 DEBUG [main] InitActivity(i) - delay : 892
+22-07-22 17:03:15:1 INFO  [main] InitActivity(d) - starting... main activity : class com.ahranta.android.arc.UserAcceptNumActivity
+22-07-22 17:03:15:1 DEBUG [main] UserAcceptNumActivity(onCreate) - # onCreate
+22-07-22 17:03:15:1 DEBUG [main] UserAcceptNumActivity(onCreate) - simple auto startup accept num >> 9592
+22-07-22 17:03:15:1 DEBUG [main] UserAcceptNumActivity(n) - registed broadcast receiver !!
+22-07-22 17:03:15:1 DEBUG [main] m(b) - module loader initialize.
+22-07-22 17:03:15:1 DEBUG [main] UserAcceptNumActivity(t) - app.getExtArgs():null
+22-07-22 17:03:15:1 DEBUG [main] UserAcceptNumActivity(b) - granted permission >> android.permission.READ_PHONE_STATE
+22-07-22 17:03:15:1 DEBUG [main] UserAcceptNumActivity(b) - granted permission >> android.permission.WRITE_EXTERNAL_STORAGE
+22-07-22 17:03:15:1 DEBUG [main] UserAcceptNumActivity(b) - granted permission >> android.permission.RECORD_AUDIO
+22-07-22 17:03:15:1 DEBUG [main] m(b) - module loader initialize.
+22-07-22 17:03:15:1 DEBUG [main] m(c) - init Module.
+22-07-22 17:03:15:1 INFO  [main] m(a) - [set native library path] normal app >> /data/app/~~O_co9taY0m-Rp-lKzI1rXg==/com.ahranta.android.arc.hyundaiautoever-mvTM3xg4AuDDN6AMUgraLw==/lib/arm
+22-07-22 17:03:15:1 DEBUG [main] m(c) - init Module >> native lib directory:/data/app/~~O_co9taY0m-Rp-lKzI1rXg==/com.ahranta.android.arc.hyundaiautoever-mvTM3xg4AuDDN6AMUgraLw==/lib/arm
+22-07-22 17:03:15:1 INFO  [main] m(e) - [ info ] = [samsung] [SM-F926N]
+22-07-22 17:03:15:1 INFO  [main] m(e) - getMobileBinaryInfo >> inner knox sdk.
+22-07-22 17:03:15:1 DEBUG [main] m(e) - [http parameter >> k:[os] v:[android]
+22-07-22 17:03:15:1 DEBUG [main] m(e) - [http parameter >> k:[integration] v:[false]
+22-07-22 17:03:15:1 DEBUG [main] m(e) - [http parameter >> k:[model] v:[main_knox]
+22-07-22 17:03:15:1 DEBUG [main] m(e) - [http parameter >> k:[version] v:[31]
+22-07-22 17:03:15:1 DEBUG [main] m(e) - [http parameter >> k:[deviceModel] v:[SM-F926N]
+22-07-22 17:03:15:1 DEBUG [main] m(e) - [http parameter >> k:[manufacturers] v:[samsung]
+22-07-22 17:03:15:1 DEBUG [main] m(e) - [http parameter >> k:[mainManufacturer] v:[null]
+22-07-22 17:03:15:1 DEBUG [main] q(a) - [http] request >>
+22-07-22 17:03:15:1 DEBUG [main] UserAcceptNumActivity(c_) - # prepareUpdateCheck
+22-07-22 17:03:15:2 DEBUG [Thread-22] q$2$1(handleResponse) - [req] url:http://211.47.130.231/external/getMobileBinary.do [res] code:200
+22-07-22 17:03:15:2 DEBUG [Thread-22] m$1(a) - [http response] >> {"coreBean":{"alias":"현대오토에버 SAMSUNG KNOX","appVersionCode":0,"fileName":"arc_core_samsung_knox.apk","googlePlaySupport":false,"manufacturers":"samsung","md5":"","model":"main_knox","os":"android","separateCorePackageName":"","vd":"N21","version":""},"mainBean":{"alias":"현대오토에버","appVersionCode":112,"fileName":"arc_main.apk","googlePlaySupport":false,"manufacturers":"public","md5":"","model":"main","os":"android","separateCorePackageName":"","vd":"","version":""},"result":"success","manufacturer":"samsung"}
+22-07-22 17:03:15:2 DEBUG [Thread-22] m$1(a) - result:success
+22-07-22 17:03:15:2 DEBUG [Thread-22] m$1(a) - manufacturer : samsung
+22-07-22 17:03:15:2 INFO  [Thread-22] m$1(a) - add-on[core] package name >> com.ahranta.android.arc.hyundaiautoever
+22-07-22 17:03:15:2 INFO  [Thread-22] m$1(a) - add-on[core] package installed ? PackageInfo{486bd9c com.ahranta.android.arc.hyundaiautoever}
+22-07-22 17:03:15:2 INFO  [Thread-22] m(a) - [set native library path] normal app >> /data/app/~~O_co9taY0m-Rp-lKzI1rXg==/com.ahranta.android.arc.hyundaiautoever-mvTM3xg4AuDDN6AMUgraLw==/lib/arm
+22-07-22 17:03:15:2 DEBUG [Thread-22] m$1(a) - store separate package name >> null
+22-07-22 17:03:15:2 DEBUG [Thread-22] m(a) - samsung?true
+22-07-22 17:03:15:2 DEBUG [Thread-22] m(a) - use_force_knox_sdk?true
+22-07-22 17:03:15:2 DEBUG [Thread-22] m(a) - use_force_knox_sdk_with_vd?true
+22-07-22 17:03:15:2 DEBUG [Thread-22] m(a) - sdk?31
+22-07-22 17:03:15:2 DEBUG [Thread-22] m(a) - [vd] strings >>>> N21
+22-07-22 17:03:15:2 INFO  [Thread-22] m(a) - force using virtual display. !! [2: api level 21 > lollipop]
+22-07-22 17:03:15:2 DEBUG [main] UserAcceptNumActivity(b) - # moduleResultNormal
+22-07-22 17:03:15:2 DEBUG [main] m(b) - module loader initialize.
+22-07-22 17:03:15:3 DEBUG [main] q(a) - [http] request >>
+22-07-22 17:03:15:3 DEBUG [Thread-29] q$2$1(handleResponse) - [req] url:http://211.47.130.231/external/getUserInfoByAcceptNum.do [res] code:200
+22-07-22 17:03:15:4 DEBUG [main] UserAcceptNumActivity(c) - json ==> {"agreementString":"1.원격지원\r\n \r\n원격지원 담당자에게 본인의 단말화면을 일시적으로 공유하여,원격제어 할 수 있도록 허락합니다.\r\n필요시 원격지원담당자가 원격지원 중 단말의 파일을 관리할 수 있습니다.\r\n위 내용을 숙지하였으며, 이에 따른 일체의 책임은 본인에게 있음을 동의합니다.\r\n \r\n2.개인정보 취급 방침\r\n \r\n가. 수집하는 개인정보의 항목\r\n원활한 원격지원을 위해 아래와 같은 최소한의 정보를 필수항목으로 수집하고 있습니다.\r\n \r\n○PC 이용시 수집정보:IP주소, 운영체제, 넷그룹, 컴퓨터이름, 프로세서, RAM, HDD, 디스플레이, VGA, 랜카드, 사운드카드, 미디어플레이어, 브라우저 정보\r\n \r\n○모바일 이용시 수집정보:전화번호, IP주소, 운영체제, 모델명, 프로세서, RAM, 저장소크기, 해상도, 연결된 네트워크 타입 정보\r\n \r\n나. 개인정보의 수집 및 이용목적\r\n원격지원 서비스 제공에 관한 통계 정보\r\n \r\n다. 개인정보의 취급위탁\r\n회사는 개인정보를 어떠한 회사에도 위탁\/제공하지 않습니다.","isRequiredRequestInfo":false,"isDirectConsult":true,"data":{"acceptNum":"","controlSystemId":"{B5E3C44E-831E-4E2E-BEB9-CBB096C5B1FD}","controlWaitSystemIdEncrypt":"gv6xhWeSgplHai^LX@LMuhyvJb^fp0PPTZwD1J7V@SapYXKvbpOerTcXiv^aIcY4","cpCode":"nspro","cpCodeEncrypt":"QfLPjAZV7fxsTU7O2JGVfQ==","mobileEnable":true,"userId":"test123","userIdEncrypt":"Js@WzvB3gaKx2hmsgNWH3Q==","userName":"test123"}}
+22-07-22 17:03:15:4 INFO  [main] LicenseActivity(onCreate) - edm api level >> 35
+22-07-22 17:03:18:1 DEBUG [main] DeviceAdmin(onEnabled) - Device Admin: enabled
+22-07-22 17:03:18:1 DEBUG [main] LicenseActivity(onActivityResult) - onActivityResult REQ:1
+22-07-22 17:03:18:1 INFO  [main] LicenseActivity(c) - activate >> kpe key.
+22-07-22 17:03:29:7 INFO  [main] LicenseReceiver(onReceive) - kpe license code = 0
+22-07-22 17:03:29:7 DEBUG [main] LicenseActivity$1(onReceive) - license result >> true sdk version:35(35)
+22-07-22 17:03:29:8 DEBUG [main] UserAcceptNumActivity(onActivityResult) - onActivityResult requestCode:2 resultCode:-1
+22-07-22 17:03:29:8 DEBUG [main] g(<init>) - -------------------------------------------------------------------------------------------------------
+22-07-22 17:03:29:8 DEBUG [main] g(<init>) - [core-service-manager] --------------------------------------------------------------------------------
+22-07-22 17:03:29:8 DEBUG [main] g(<init>) - -------------------------------------------------------------------------------------------------------
+22-07-22 17:03:29:8 DEBUG [main] g(<init>) - emulator? false
+22-07-22 17:03:29:8 DEBUG [main] g(<init>) - useInnerKnoxSdk? true
+22-07-22 17:03:29:8 DEBUG [main] g(<init>) - app.isUseVirtualDisplay()? true
+22-07-22 17:03:29:8 DEBUG [main] g(<init>) - app.isUseVirtualDisplayWithCore()? false
+22-07-22 17:03:29:8 DEBUG [main] g(<init>) - -------------------------------------------------------------------------------------------------------
+22-07-22 17:03:29:8 DEBUG [main] g(<init>) - using local core service  >>>>>> class com.ahranta.android.arc.core.CoreService
+22-07-22 17:03:29:8 INFO  [main] g(a) - starting... foreground service !!
+22-07-22 17:03:29:8 INFO  [main] d(a) - initialize logging - rootLevel:DEBUG f:/storage/emulated/0/Android/data/com.ahranta.android.arc.hyundaiautoever/files/logs/arc-m.log
+22-07-22 17:03:29:8 INFO  [main] CoreService(onCreate) - ### onCreate <com.ahranta.android.arc.hyundaiautoever> isIntegration:false
+22-07-22 17:03:29:8 DEBUG [main] CoreService(registBroadcastReceiver) - registed broadcast receiver !!
+22-07-22 17:03:29:8 DEBUG [main] NativeController(load) - [load]  arc native library = [arc]
+22-07-22 17:03:29:8 DEBUG [main] NativeController(load) - [load] finished. arc native library !!
+22-07-22 17:03:29:8 INFO  [main] g(<init>) - input bridge >> com.ahranta.android.arc.hyundaiautoever.knox.a@2c5e48b
+22-07-22 17:03:29:8 INFO  [main] CoreService(onCreate) - available soft buttons bar height >> 126
+22-07-22 17:03:29:8 DEBUG [main] CoreService(onBind) - # onBind
+22-07-22 17:03:29:8 DEBUG [main] CoreService(onStartCommand) - onStartCommand()
+22-07-22 17:03:29:8 DEBUG [main] CoreService(onStartCommand) - # onStartCommand 1 buildExecutable  >> false >> foregroundService=true
+22-07-22 17:03:29:8 DEBUG [Binder:20946_3] CoreService(checkSignaturePermission) - [signature] callingPackageName >> com.ahranta.android.arc.hyundaiautoever
+22-07-22 17:03:29:8 INFO  [main] g$2(onServiceConnected) - core service connected.
+22-07-22 17:03:29:8 INFO  [Binder:20946_3] CoreService(grantVirtualDisplayPermission2) - grantVirtualDisplayPermission2 >> com.ahranta.android.arc.core.global.ControlVdBean@8a3d226
+22-07-22 17:03:29:9 DEBUG [main] PermissionActivity(onCreate) - #onCreate >> keepVd = true
+22-07-22 17:03:31:7 DEBUG [main] PermissionActivity(a) - [com.ahranta.android.arc.hyundaiautoever] send >> true
+22-07-22 17:03:31:7 DEBUG [main] CoreService$b(onReceive) - local receiver action >> com.ahranta.android.arc.core.ACTION_LOCAL_VD_GRANT_VD_PERMISSION
+22-07-22 17:03:31:7 DEBUG [main] CoreService(resultVdPermission2) - #callback# resultVdPermission2 >> result = 1
+22-07-22 17:03:31:7 INFO  [Binder:20503_2] g$1(resultVdPermission2) - resultVdPermission2 >> result:1
+22-07-22 17:03:31:7 INFO  [Binder:20503_2] g$1(resultVdPermission2) - 	vd result >> Intent { (has extras) }
+22-07-22 17:03:31:7 DEBUG [main] UserAcceptNumActivity$a(onReceive) - local receiver action >> com.ahranta.android.arc.ACTION_LOCAL_VD_RESULT
+22-07-22 17:03:31:7 DEBUG [main] UserAcceptNumActivity$a(onReceive) - vd result >> true param >> com.ahranta.android.arc.core.global.ControlBean@68cd42f
+22-07-22 17:03:31:7 DEBUG [main] a(g) - MySystemId : {FF91C8C9-FA43-4B73-83E1-AAD7D56F8898}
+22-07-22 17:03:31:7 DEBUG [main] q(a) - [http] request >>
+22-07-22 17:03:31:8 DEBUG [Thread-32] q$2$1(handleResponse) - [req] url:http://211.47.130.231/external/preProcRemoteStart.do [res] code:200
+22-07-22 17:03:31:8 DEBUG [main] UserAcceptNumActivity(a) - usage access settings values >> isLockApplication[false] doNotShowUsageAccess[false] isGrantedUsageAccessSettings[false]
+22-07-22 17:03:31:8 DEBUG [main] UserAcceptNumActivity(b) - starting consult
+22-07-22 17:03:31:9 INFO  [main] g(a) - SelectCodec : c2.qti.avc.encoder
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [0] Size[43611969] 1768 x 2208
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [1] Size[183747814] 1360 x 1698
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [2] Size[263002663] 884 x 1104
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [3] Size[198587604] 804 x 1004
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [4] Size[239421053] 570 x 712
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [5] Size[10963314] 552 x 690
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [6] Size[264712643] 442 x 552
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [7] Size[147573312] 402 x 502
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [8] Size[65326457] 384 x 480
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [9] Size[60590782] 376 x 470
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [10] Size[148973343] 368 x 460
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [11] Size[46353004] 354 x 442
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [12] Size[157009973] 316 x 394
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [13] Size[17994954] 300 x 374
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [14] Size[209393211] 290 x 362
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [15] Size[231776600] 272 x 340
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [16] Size[84783793] 264 x 330
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [17] Size[153957270] 256 x 320
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [18] Size[167435031] 242 x 302
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [19] Size[156924676] 236 x 294
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [20] Size[102353133] 208 x 260
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [21] Size[142668578] 192 x 240
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [22] Size[122163635] 186 x 232
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [23] Size[42353520] 184 x 230
+22-07-22 17:03:31:9 DEBUG [main] e(d) - [24] Size[72812265] 182 x 228
+22-07-22 17:03:31:9 DEBUG [main] e(e) - init >>>>>>>> [1768x2208] rotation=0 density:2.625
+22-07-22 17:03:31:9 DEBUG [main] a(c) - start control = relayServerHost =====> 211.47.130.231
+22-07-22 17:03:31:9 DEBUG [main] a(c) - start control = relayServerPort =====> 9300
+22-07-22 17:03:31:9 DEBUG [Thread-33] a(c) - ~~ initialize ~~
+22-07-22 17:03:31:9 DEBUG [Thread-33] b(h) - o[Thread[Thread-33,5,main]] guid = B5E3C44E-831E-4E2E-BEB9-CBB096C5B1FD
+22-07-22 17:03:31:9 DEBUG [Thread-33] b(h) - >>>>>>>>>>>>>>> sendOpenRelay
+22-07-22 17:03:31:9 DEBUG [Thread-33] a(g) - ~~ readOpenRelay [a] =>> command[0xfffffff4/-12] version[257] crc32[-938343670], size[16] type[0] guid:4EC4E3B51E832E4EBEB9CBB096C5B1FD
+22-07-22 17:03:31:9 DEBUG [Thread-33] b(h) - >>>>>>>>>>>>>>> readOpenRelay
+22-07-22 17:03:31:9 DEBUG [Thread-33] b(h) - >>>>>>>>>>>>>>> sendConnectInfo
+22-07-22 17:03:32:0 DEBUG [Thread-33] b(k) - >>>>>>>>>>>>>>> readConnectInfo read [a] =>> command[0xfffffff3/-13] version[257] crc32[-1794960357], size[164] type[0]
+22-07-22 17:03:32:0 DEBUG [Thread-33] b(h) - >>>>>>>>>>>>>>> readConnectInfo
+22-07-22 17:03:32:0 DEBUG [Thread-33] b(h) - >>>>>>>>>>>>>>> start
+22-07-22 17:03:32:0 DEBUG [Thread-33] a(e) - start remote control = B5E3C44E-831E-4E2E-BEB9-CBB096C5B1FD
+22-07-22 17:03:32:0 DEBUG [Thread-33] e(a) - calculate base pixel[density:2.63] >>>>>>>> [1768X2208] -> [841X1051]
+22-07-22 17:03:32:0 DEBUG [Binder:20946_1] CoreService$2(unregisterCallback) - ########## unregisterCallback
+22-07-22 17:03:32:0 DEBUG [main] CoreService(onUnbind) - # onUnbind
+22-07-22 17:03:32:0 DEBUG [Thread-33] g(<init>) - -------------------------------------------------------------------------------------------------------
+22-07-22 17:03:32:0 DEBUG [Thread-33] g(<init>) - [core-service-manager] --------------------------------------------------------------------------------
+22-07-22 17:03:32:0 DEBUG [Thread-33] g(<init>) - -------------------------------------------------------------------------------------------------------
+22-07-22 17:03:32:0 DEBUG [Thread-33] g(<init>) - emulator? false
+22-07-22 17:03:32:0 DEBUG [Thread-33] g(<init>) - useInnerKnoxSdk? true
+22-07-22 17:03:32:0 DEBUG [Thread-33] g(<init>) - app.isUseVirtualDisplay()? true
+22-07-22 17:03:32:0 DEBUG [Thread-33] g(<init>) - app.isUseVirtualDisplayWithCore()? false
+22-07-22 17:03:32:0 DEBUG [Thread-33] g(<init>) - -------------------------------------------------------------------------------------------------------
+22-07-22 17:03:32:0 DEBUG [Thread-33] g(<init>) - using local core service  >>>>>> class com.ahranta.android.arc.core.CoreService
+22-07-22 17:03:32:0 INFO  [Thread-33] g(a) - starting... foreground service !!
+22-07-22 17:03:32:0 DEBUG [main] CoreService(onStartCommand) - onStartCommand()
+22-07-22 17:03:32:0 DEBUG [main] CoreService(onStartCommand) - # onStartCommand 2 buildExecutable  >> false >> foregroundService=true
+22-07-22 17:03:32:0 DEBUG [Binder:20946_1] CoreService(checkSignaturePermission) - [signature] callingPackageName >> com.ahranta.android.arc.hyundaiautoever
+22-07-22 17:03:32:0 INFO  [main] g$2(onServiceConnected) - core service connected.
+22-07-22 17:03:32:0 DEBUG [main] a$5(a) - starting core remote control.
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[0] -d
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[1] -
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[2] -r
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[3] 0
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[4] -s
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[5] 100
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[6] -n
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[7] /data/app/~~O_co9taY0m-Rp-lKzI1rXg==/com.ahranta.android.arc.hyundaiautoever-mvTM3xg4AuDDN6AMUgraLw==/lib/arm
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[8] -o
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[9] 1
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[10] -m
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[11] vd
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[12] -M
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[13] 
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[14] -d
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[15] 0
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[16] -R
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[17] 211.47.130.231:9300
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[18] -g
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[19] {FF91C8C9-FA43-4B73-83E1-AAD7D56F8898}
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[20] -G
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[21] B5E3C44E-831E-4E2E-BEB9-CBB096C5B1FD
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[22] -c
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[23] 17
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[24] -A
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[25] 1768x2208
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[26] -a
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[27] 841x1051
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[28] -v
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[29] 1
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[30] -e
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[31] 35
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[32] -t
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[33] 10,12,16
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[34] -T
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[35] 7,8
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[36] -V
+22-07-22 17:03:32:0 DEBUG [main] a(k) - args[37] knox
+22-07-22 17:03:32:0 DEBUG [Binder:20946_1] CoreService(checkSignaturePermission) - [signature] callingPackageName >> com.ahranta.android.arc.hyundaiautoever
+22-07-22 17:03:32:0 DEBUG [Binder:20946_1] CoreService$2(startRemoteControl) - # startRemoteControl
+22-07-22 17:03:32:0 INFO  [Binder:20946_1] k(c) - set up >> 841x1051
+22-07-22 17:03:32:0 INFO  [Binder:20946_1] CoreService(beginVirtualDisplay) - vd manager is input enabled.
+22-07-22 17:03:32:0 INFO  [Binder:20946_1] k(a) - generateVideoSize raw[841x1051] current[841x1051 -> 841x1051]
+22-07-22 17:03:32:0 WARN  [Binder:20946_1] k(a) - [vd] same resolution as the current one is ignored.
+22-07-22 17:03:32:0 DEBUG [main] ARCService(onCreate) - # onCreate
+22-07-22 17:03:32:0 DEBUG [main] ARCService(onStartCommand) - # onStartCommand
+22-07-22 17:03:48:7 ERROR [Thread-33] b(h) - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:200)
+	at com.ahranta.android.arc.c.a.b.h(Unknown Source:133)
+	at com.ahranta.android.arc.c.a.a.run(Unknown Source:3)
+22-07-22 17:03:48:7 DEBUG [Thread-33] a(f) - # reConnnectStart >> B5E3C44E-831E-4E2E-BEB9-CBB096C5B1FD
+22-07-22 17:03:48:7 DEBUG [Thread-33] a(e) - --------------------- FINISH ----------------------
+22-07-22 17:03:48:7 DEBUG [Thread-33] b(e) - close >> Thread[Thread-33,5,main]
+22-07-22 17:03:48:7 DEBUG [Thread-33] a(a) - removeCmdControl:Thread[Thread-33,5,main] / true size:0
+22-07-22 17:03:48:7 DEBUG [Thread-33] b(e) - close >> Thread[Thread-33,5,main]
+22-07-22 17:03:48:7 DEBUG [Thread-33] a(a) - removeCmdControl:Thread[Thread-33,5,main] / false size:0
+22-07-22 17:03:53:7 ERROR [main] a$2(handleMessage) - # Start reConnecting..!!!! [MOBILE] guid[B5E3C44E-831E-4E2E-BEB9-CBB096C5B1FD]
+22-07-22 17:03:53:8 DEBUG [Thread-34] a(c) - ~~ initialize ~~
+22-07-22 17:03:53:8 DEBUG [Thread-34] b(h) - o[Thread[Thread-34,5,main]] guid = B5E3C44E-831E-4E2E-BEB9-CBB096C5B1FD
+22-07-22 17:03:53:8 DEBUG [Thread-34] b(h) - >>>>>>>>>>>>>>> sendOpenRelay
+22-07-22 17:03:55:2 DEBUG [main] NotificationControlActivity(h) - type ==> 3
+22-07-22 17:03:55:3 DEBUG [main] ChatActivity(onStart) - ###### onStart
+22-07-22 17:04:04:3 DEBUG [Thread-34] a(g) - ~~ readOpenRelay [a] =>> command[0xfffffff3/-13] version[257] crc32[691800430], size[16] type[0] guid:4EC4E3B51E832E4EBEB9CBB096C5B1FD
+22-07-22 17:04:04:3 DEBUG [Thread-34] b(h) - >>>>>>>>>>>>>>> readOpenRelay
+22-07-22 17:04:04:3 DEBUG [Thread-34] b(h) - >>>>>>>>>>>>>>> sendConnectInfo
+22-07-22 17:04:04:3 ERROR [Thread-34] b(h) - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:200)
+	at com.ahranta.android.arc.c.a.b.k(Unknown Source:7)
+	at com.ahranta.android.arc.c.a.b.h(Unknown Source:62)
+	at com.ahranta.android.arc.c.a.a.run(Unknown Source:3)
+22-07-22 17:04:04:3 DEBUG [Thread-34] a(f) - # reConnnectStart >> B5E3C44E-831E-4E2E-BEB9-CBB096C5B1FD
+22-07-22 17:04:04:3 DEBUG [Thread-34] a(e) - --------------------- FINISH ----------------------
+22-07-22 17:04:04:3 DEBUG [Thread-34] b(e) - close >> Thread[Thread-34,5,main]
+22-07-22 17:04:04:3 DEBUG [Thread-34] a(a) - removeCmdControl:Thread[Thread-34,5,main] / true size:0
+22-07-22 17:04:04:3 DEBUG [Thread-34] b(e) - close >> Thread[Thread-34,5,main]
+22-07-22 17:04:04:3 DEBUG [Thread-34] a(a) - removeCmdControl:Thread[Thread-34,5,main] / false size:0
+22-07-22 17:04:07:9 DEBUG [main] NotificationControlActivity(h) - type ==> 3
+22-07-22 17:04:09:3 ERROR [main] a$2(handleMessage) - # Start reConnecting..!!!! [MOBILE] guid[B5E3C44E-831E-4E2E-BEB9-CBB096C5B1FD]
+22-07-22 17:04:09:4 DEBUG [Thread-39] a(c) - ~~ initialize ~~
+22-07-22 17:04:09:4 DEBUG [Thread-39] b(h) - o[Thread[Thread-39,5,main]] guid = B5E3C44E-831E-4E2E-BEB9-CBB096C5B1FD
+22-07-22 17:04:09:4 DEBUG [Thread-39] b(h) - >>>>>>>>>>>>>>> sendOpenRelay
+22-07-22 17:04:20:1 DEBUG [Thread-39] a(g) - ~~ readOpenRelay [a] =>> command[0xfffffff3/-13] version[257] crc32[691800430], size[16] type[0] guid:4EC4E3B51E832E4EBEB9CBB096C5B1FD
+22-07-22 17:04:20:1 DEBUG [Thread-39] b(h) - >>>>>>>>>>>>>>> readOpenRelay
+22-07-22 17:04:20:1 DEBUG [Thread-39] b(h) - >>>>>>>>>>>>>>> sendConnectInfo
+22-07-22 17:04:20:1 ERROR [Thread-39] b(h) - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:200)
+	at com.ahranta.android.arc.c.a.b.k(Unknown Source:7)
+	at com.ahranta.android.arc.c.a.b.h(Unknown Source:62)
+	at com.ahranta.android.arc.c.a.a.run(Unknown Source:3)
+22-07-22 17:04:20:1 DEBUG [Thread-39] a(f) - # reConnnectStart >> B5E3C44E-831E-4E2E-BEB9-CBB096C5B1FD
+22-07-22 17:04:20:1 DEBUG [Thread-39] a(e) - --------------------- FINISH ----------------------
+22-07-22 17:04:20:1 DEBUG [Thread-39] b(e) - close >> Thread[Thread-39,5,main]
+22-07-22 17:04:20:1 DEBUG [Thread-39] a(a) - removeCmdControl:Thread[Thread-39,5,main] / true size:0
+22-07-22 17:04:20:1 DEBUG [Thread-39] b(e) - close >> Thread[Thread-39,5,main]
+22-07-22 17:04:20:1 DEBUG [Thread-39] a(a) - removeCmdControl:Thread[Thread-39,5,main] / false size:0
+22-07-22 17:04:20:7 DEBUG [main] a(J) - # forceShutdown
+22-07-22 17:04:20:7 INFO  [main] a(Y) - # clear rpen.
+22-07-22 17:04:20:7 DEBUG [Binder:20946_1] CoreService(checkSignaturePermission) - [signature] callingPackageName >> com.ahranta.android.arc.hyundaiautoever
+22-07-22 17:04:20:7 DEBUG [main] CoreService(onUnbind) - # onUnbind
+22-07-22 17:04:20:7 DEBUG [Binder:20946_1] CoreService$2(unregisterCallback) - ########## unregisterCallback
+22-07-22 17:04:20:7 DEBUG [main] CoreService(onDestroy) - # onDestroy
+22-07-22 17:04:20:7 DEBUG [main] ARCService$a(handleMessage) - handleMessage:2
+22-07-22 17:04:20:7 DEBUG [main] ARCService(remoteControlEnd) - [called remoteControlEnd]
+22-07-22 17:04:20:7 DEBUG [main] ARCService(onDestroy) - # onDestroy
+22-07-22 17:04:20:7 INFO  [main] g$2(onServiceDisconnected) - core service disconnected.
+22-07-22 17:04:20:7 WARN  [main] a$5(b) - core service is disconnected.
+22-07-22 17:04:21:1 DEBUG [main] ChatActivity(onDestroy) - onDestroy()
+22-07-22 17:06:54:5 INFO  [main] LoggingConfingure(configure) - initialize logging - rootLevel:DEBUG f:/storage/emulated/0/Android/data/com.ahranta.android.arc.hyundaiautoever/files/logs/arc-m.log
+22-07-22 17:08:09:5 DEBUG [main] LocaleUtil(changeLocale) - -----------------------------------------------------------
+22-07-22 17:08:09:5 DEBUG [main] LocaleUtil(changeLocale) - set locale >> ko
+22-07-22 17:08:09:5 DEBUG [main] LocaleUtil(changeLocale) - -----------------------------------------------------------
+22-07-22 17:08:09:6 INFO  [main] InitActivity(onCreate) - start activity - Fri Jul 22 17:08:09 GMT+09:00 2022
+22-07-22 17:08:09:6 DEBUG [main] InitActivity(onCreate) - simple auto startup accept num >> 6282
+22-07-22 17:08:09:6 INFO  [main] InitActivity(onCreate) - BuildConfig.DEBUG? true
+22-07-22 17:08:09:6 DEBUG [main] TestCase(testCase) - ######################################################################################
+22-07-22 17:08:09:6 DEBUG [main] TestCase(testCase) - # TestCase 
+22-07-22 17:08:09:6 DEBUG [main] TestCase(testCase) - ######################################################################################
+22-07-22 17:08:09:6 DEBUG [main] TestCase(testCase) - ######################################################################################
+22-07-22 17:08:09:6 DEBUG [main] ARCApplication(forceShutdown) - # forceShutdown
+22-07-22 17:08:09:6 INFO  [main] ARCApplication(rPenclear) - # clear rpen.
+22-07-22 17:08:09:6 DEBUG [main] InitActivity(requestGrantPermission) - granted permission >> android.permission.READ_PHONE_STATE
+22-07-22 17:08:09:6 DEBUG [main] InitActivity(requestGrantPermission) - granted permission >> android.permission.WRITE_EXTERNAL_STORAGE
+22-07-22 17:08:09:6 DEBUG [main] InitActivity(requestGrantPermission) - granted permission >> android.permission.RECORD_AUDIO
+22-07-22 17:08:09:6 DEBUG [main] InitActivity(checkUpdateMainApp) - check update main app >> http://10.7.137.243
+22-07-22 17:08:09:6 DEBUG [main] InitActivity(checkUpdateMainApp) - verbose >> Build.MODEL [SM-F926N]
+22-07-22 17:08:09:6 DEBUG [main] InitActivity(checkUpdateMainApp) - verbose >> Build.MANUFACTURER [samsung]
+22-07-22 17:08:09:6 DEBUG [main] InitActivity(checkUpdateMainApp) - [http parameter >> k:[os] v:[android]
+22-07-22 17:08:09:6 DEBUG [main] InitActivity(checkUpdateMainApp) - [http parameter >> k:[integration] v:[false]
+22-07-22 17:08:09:6 DEBUG [main] InitActivity(checkUpdateMainApp) - [http parameter >> k:[model] v:[main_knox]
+22-07-22 17:08:09:6 DEBUG [main] InitActivity(checkUpdateMainApp) - [http parameter >> k:[version] v:[31]
+22-07-22 17:08:09:6 DEBUG [main] InitActivity(checkUpdateMainApp) - [http parameter >> k:[deviceModel] v:[SM-F926N]
+22-07-22 17:08:09:6 DEBUG [main] InitActivity(checkUpdateMainApp) - [http parameter >> k:[manufacturers] v:[samsung]
+22-07-22 17:08:09:6 DEBUG [main] HttpUtil(getHttpClient) - [http] request >>
+22-07-22 17:08:09:7 DEBUG [Thread-4] HttpUtil$2$1(handleResponse) - [req] url:http://10.7.137.243/external/getMobileBinary.do [res] code:200
+22-07-22 17:08:09:7 DEBUG [Thread-4] InitActivity$8(onSuccess) - [http response] >> {"coreBean":{"alias":"현대오토에버 SAMSUNG KNOX","appVersionCode":0,"fileName":"arc_core_samsung_knox.apk","googlePlaySupport":false,"manufacturers":"samsung","md5":"","model":"main_knox","os":"android","separateCorePackageName":"","vd":"N21","version":""},"mainBean":{"alias":"현대오토에버","appVersionCode":136,"fileName":"arc_main.apk","googlePlaySupport":false,"manufacturers":"public","md5":"b692ac93ba1f7e7e7e455f2a43a662d4","model":"main","os":"android","separateCorePackageName":"","vd":"","version":""},"result":"success","manufacturer":"samsung"}
+22-07-22 17:08:09:7 DEBUG [Thread-4] InitActivity$8(onSuccess) - result:success
+22-07-22 17:08:09:7 DEBUG [Thread-4] InitActivity$8(onSuccess) - main app verson : 136 / 143
+22-07-22 17:08:09:7 INFO  [main] ModuleLoader(<clinit>) - [init] sdk version ==> 31 support_compiled_sdk_version ==> 21
+22-07-22 17:08:09:7 INFO  [main] InitActivity(checkRedirectPackage) - samsung device.
+22-07-22 17:08:09:7 INFO  [main] InitActivity(checkRedirectPackage) - using inner knox sdk. min api[21] level = 31 force using knox sdk.
+22-07-22 17:08:09:7 INFO  [main] InitActivity(normal) - go normal.
+22-07-22 17:08:09:7 DEBUG [main] InitActivity(normal) - delay : 879
+22-07-22 17:08:10:6 INFO  [main] InitActivity(goMainActivity) - starting... main activity : class com.ahranta.android.arc.UserAcceptNumActivity
+22-07-22 17:08:10:6 DEBUG [main] UserAcceptNumActivity(onCreate) - # onCreate
+22-07-22 17:08:10:6 DEBUG [main] UserAcceptNumActivity(onCreate) - simple auto startup accept num >> 6282
+22-07-22 17:08:10:6 DEBUG [main] UserAcceptNumActivity(registBroadcastReceiver) - registed broadcast receiver !!
+22-07-22 17:08:10:6 DEBUG [main] ModuleLoader(init) - module loader initialize.
+22-07-22 17:08:10:7 DEBUG [main] UserAcceptNumActivity(createUI) - app.getExtArgs():null
+22-07-22 17:08:10:7 DEBUG [main] UserAcceptNumActivity(requestGrantPermission) - granted permission >> android.permission.READ_PHONE_STATE
+22-07-22 17:08:10:7 DEBUG [main] UserAcceptNumActivity(requestGrantPermission) - granted permission >> android.permission.WRITE_EXTERNAL_STORAGE
+22-07-22 17:08:10:7 DEBUG [main] UserAcceptNumActivity(requestGrantPermission) - granted permission >> android.permission.RECORD_AUDIO
+22-07-22 17:08:10:7 DEBUG [main] ModuleLoader(init) - module loader initialize.
+22-07-22 17:08:10:7 DEBUG [main] ModuleLoader(initModule) - init Module.
+22-07-22 17:08:10:7 INFO  [main] ModuleLoader(setNativeLibrary) - [set native library path] normal app >> /data/app/~~87wgWu_uqIzCuDezieiW0w==/com.ahranta.android.arc.hyundaiautoever-0vWa9dSVx9wylhTSNQL-1Q==/lib/arm
+22-07-22 17:08:10:7 DEBUG [main] ModuleLoader(initModule) - init Module >> native lib directory:/data/app/~~87wgWu_uqIzCuDezieiW0w==/com.ahranta.android.arc.hyundaiautoever-0vWa9dSVx9wylhTSNQL-1Q==/lib/arm
+22-07-22 17:08:10:7 INFO  [main] ModuleLoader(checkUpdateCore) - [ info ] = [samsung] [SM-F926N]
+22-07-22 17:08:10:7 INFO  [main] ModuleLoader(checkUpdateCore) - getMobileBinaryInfo >> inner knox sdk.
+22-07-22 17:08:10:7 DEBUG [main] ModuleLoader(checkUpdateCore) - [http parameter >> k:[os] v:[android]
+22-07-22 17:08:10:7 DEBUG [main] ModuleLoader(checkUpdateCore) - [http parameter >> k:[integration] v:[false]
+22-07-22 17:08:10:7 DEBUG [main] ModuleLoader(checkUpdateCore) - [http parameter >> k:[model] v:[main_knox]
+22-07-22 17:08:10:7 DEBUG [main] ModuleLoader(checkUpdateCore) - [http parameter >> k:[version] v:[31]
+22-07-22 17:08:10:7 DEBUG [main] ModuleLoader(checkUpdateCore) - [http parameter >> k:[deviceModel] v:[SM-F926N]
+22-07-22 17:08:10:7 DEBUG [main] ModuleLoader(checkUpdateCore) - [http parameter >> k:[manufacturers] v:[samsung]
+22-07-22 17:08:10:7 DEBUG [main] ModuleLoader(checkUpdateCore) - [http parameter >> k:[mainManufacturer] v:[null]
+22-07-22 17:08:10:7 DEBUG [main] HttpUtil(getHttpClient) - [http] request >>
+22-07-22 17:08:10:7 DEBUG [main] UserAcceptNumActivity(prepareUpdateCheck) - # prepareUpdateCheck
+22-07-22 17:08:10:8 DEBUG [Thread-7] HttpUtil$2$1(handleResponse) - [req] url:http://10.7.137.243/external/getMobileBinary.do [res] code:200
+22-07-22 17:08:10:8 DEBUG [Thread-7] ModuleLoader$1(onSuccess) - [http response] >> {"coreBean":{"alias":"현대오토에버 SAMSUNG KNOX","appVersionCode":0,"fileName":"arc_core_samsung_knox.apk","googlePlaySupport":false,"manufacturers":"samsung","md5":"","model":"main_knox","os":"android","separateCorePackageName":"","vd":"N21","version":""},"mainBean":{"alias":"현대오토에버","appVersionCode":136,"fileName":"arc_main.apk","googlePlaySupport":false,"manufacturers":"public","md5":"b692ac93ba1f7e7e7e455f2a43a662d4","model":"main","os":"android","separateCorePackageName":"","vd":"","version":""},"result":"success","manufacturer":"samsung"}
+22-07-22 17:08:10:8 DEBUG [Thread-7] ModuleLoader$1(onSuccess) - result:success
+22-07-22 17:08:10:8 DEBUG [Thread-7] ModuleLoader$1(onSuccess) - manufacturer : samsung
+22-07-22 17:08:10:8 INFO  [Thread-7] ModuleLoader$1(onSuccess) - add-on[core] package name >> com.ahranta.android.arc.hyundaiautoever
+22-07-22 17:08:10:8 INFO  [Thread-7] ModuleLoader$1(onSuccess) - add-on[core] package installed ? PackageInfo{a4b6d0f com.ahranta.android.arc.hyundaiautoever}
+22-07-22 17:08:10:8 INFO  [Thread-7] ModuleLoader(setNativeLibrary) - [set native library path] normal app >> /data/app/~~87wgWu_uqIzCuDezieiW0w==/com.ahranta.android.arc.hyundaiautoever-0vWa9dSVx9wylhTSNQL-1Q==/lib/arm
+22-07-22 17:08:10:8 DEBUG [Thread-7] ModuleLoader$1(onSuccess) - store separate package name >> null
+22-07-22 17:08:10:8 DEBUG [Thread-7] ModuleLoader(isVd) - samsung?true
+22-07-22 17:08:10:8 DEBUG [Thread-7] ModuleLoader(isVd) - use_force_knox_sdk?true
+22-07-22 17:08:10:8 DEBUG [Thread-7] ModuleLoader(isVd) - use_force_knox_sdk_with_vd?true
+22-07-22 17:08:10:8 DEBUG [Thread-7] ModuleLoader(isVd) - sdk?31
+22-07-22 17:08:10:8 DEBUG [Thread-7] ModuleLoader(isVd) - [vd] strings >>>> N21
+22-07-22 17:08:10:8 INFO  [Thread-7] ModuleLoader(isVd) - force using virtual display. !! [2: api level 21 > lollipop]
+22-07-22 17:08:10:8 DEBUG [main] UserAcceptNumActivity(moduleResultNormal) - # moduleResultNormal
+22-07-22 17:08:10:8 DEBUG [main] ModuleLoader(init) - module loader initialize.
+22-07-22 17:08:10:8 DEBUG [main] HttpUtil(getHttpClient) - [http] request >>
+22-07-22 17:08:10:9 DEBUG [Thread-14] HttpUtil$2$1(handleResponse) - [req] url:http://10.7.137.243/external/getUserInfoByAcceptNum.do [res] code:200
+22-07-22 17:08:11:0 INFO  [main] LicenseActivity(onCreate) - edm api level >> 35
+22-07-22 17:08:11:0 DEBUG [main] LicenseActivity(deviceAdminActivateLicense) - check skip license status value.
+22-07-22 17:08:11:0 DEBUG [main] UserAcceptNumActivity(onActivityResult) - onActivityResult requestCode:2 resultCode:-1
+22-07-22 17:08:11:0 DEBUG [main] CoreServiceManager(<init>) - -------------------------------------------------------------------------------------------------------
+22-07-22 17:08:11:0 DEBUG [main] CoreServiceManager(<init>) - [core-service-manager] --------------------------------------------------------------------------------
+22-07-22 17:08:11:0 DEBUG [main] CoreServiceManager(<init>) - -------------------------------------------------------------------------------------------------------
+22-07-22 17:08:11:0 DEBUG [main] CoreServiceManager(<init>) - emulator? false
+22-07-22 17:08:11:0 DEBUG [main] CoreServiceManager(<init>) - useInnerKnoxSdk? true
+22-07-22 17:08:11:0 DEBUG [main] CoreServiceManager(<init>) - app.isUseVirtualDisplay()? true
+22-07-22 17:08:11:0 DEBUG [main] CoreServiceManager(<init>) - app.isUseVirtualDisplayWithCore()? false
+22-07-22 17:08:11:0 DEBUG [main] CoreServiceManager(<init>) - -------------------------------------------------------------------------------------------------------
+22-07-22 17:08:11:0 DEBUG [main] CoreServiceManager(<init>) - using local core service  >>>>>> class com.ahranta.android.arc.core.CoreService
+22-07-22 17:08:11:0 INFO  [main] CoreServiceManager(startAndBindService) - starting... foreground service !!
+22-07-22 17:08:11:1 INFO  [main] LoggingConfingure(configure) - initialize logging - rootLevel:DEBUG f:/storage/emulated/0/Android/data/com.ahranta.android.arc.hyundaiautoever/files/logs/arc-m.log
+22-07-22 17:08:11:2 INFO  [main] CoreService(onCreate) - ### onCreate <com.ahranta.android.arc.hyundaiautoever> isIntegration:false
+22-07-22 17:08:11:2 DEBUG [main] CoreService(registBroadcastReceiver) - registed broadcast receiver !!
+22-07-22 17:08:11:2 DEBUG [main] NativeController(load) - [load]  arc native library = [arc]
+22-07-22 17:08:11:2 DEBUG [main] NativeController(load) - [load] finished. arc native library !!
+22-07-22 17:08:11:2 INFO  [main] InputManager(<init>) - input bridge >> com.ahranta.android.arc.hyundaiautoever.knox.InputEventBridge@2c5e48b
+22-07-22 17:08:11:2 INFO  [main] CoreService(onCreate) - available soft buttons bar height >> 126
+22-07-22 17:08:11:2 DEBUG [main] CoreService(onBind) - # onBind
+22-07-22 17:08:11:2 DEBUG [main] CoreService(onStartCommand) - onStartCommand()
+22-07-22 17:08:11:2 DEBUG [main] CoreService(onStartCommand) - # onStartCommand 1 buildExecutable  >> false >> foregroundService=true
+22-07-22 17:08:11:2 DEBUG [Binder:23792_1] CoreService(checkSignaturePermission) - [signature] callingPackageName >> com.ahranta.android.arc.hyundaiautoever
+22-07-22 17:08:11:2 INFO  [main] CoreServiceManager$2(onServiceConnected) - core service connected.
+22-07-22 17:08:11:2 INFO  [Binder:23792_3] CoreService(grantVirtualDisplayPermission2) - grantVirtualDisplayPermission2 >> com.ahranta.android.arc.core.global.ControlVdBean@8a3d226
+22-07-22 17:08:11:2 DEBUG [main] PermissionActivity(onCreate) - #onCreate >> keepVd = true
+22-07-22 17:08:14:0 DEBUG [main] PermissionActivity(begin) - [com.ahranta.android.arc.hyundaiautoever] send >> true
+22-07-22 17:08:14:0 DEBUG [main] CoreService$LocalBroadcastReceiver(onReceive) - local receiver action >> com.ahranta.android.arc.core.ACTION_LOCAL_VD_GRANT_VD_PERMISSION
+22-07-22 17:08:14:0 DEBUG [main] CoreService(resultVdPermission2) - #callback# resultVdPermission2 >> result = 1
+22-07-22 17:08:14:0 INFO  [Binder:23339_3] CoreServiceManager$1(resultVdPermission2) - resultVdPermission2 >> result:1
+22-07-22 17:08:14:1 INFO  [Binder:23339_3] CoreServiceManager$1(resultVdPermission2) - 	vd result >> Intent { (has extras) }
+22-07-22 17:08:14:1 DEBUG [main] UserAcceptNumActivity$LocalBroadcastReceiver(onReceive) - local receiver action >> com.ahranta.android.arc.ACTION_LOCAL_VD_RESULT
+22-07-22 17:08:14:1 DEBUG [main] UserAcceptNumActivity$LocalBroadcastReceiver(onReceive) - vd result >> true param >> com.ahranta.android.arc.core.global.ControlBean@75bcea4
+22-07-22 17:08:14:1 DEBUG [main] UserAcceptNumActivity(connectRemoteControlConfirm) - simple auto startup enabled. skip remote control confirm.
+22-07-22 17:08:14:1 DEBUG [main] ARCApplication(generateMySystemId) - MySystemId : {98ED0C97-7A10-42E2-9C69-E453B209B8EA}
+22-07-22 17:08:14:1 DEBUG [main] HttpUtil(getHttpClient) - [http] request >>
+22-07-22 17:08:14:2 DEBUG [Thread-15] HttpUtil$2$1(handleResponse) - [req] url:http://10.7.137.243/external/preProcRemoteStart.do [res] code:200
+22-07-22 17:08:14:2 DEBUG [main] UserAcceptNumActivity(checkUsageAccessSettings) - usage access settings values >> isLockApplication[false] doNotShowUsageAccess[false] isGrantedUsageAccessSettings[false]
+22-07-22 17:08:14:2 DEBUG [main] UserAcceptNumActivity(startConsult) - starting consult
+22-07-22 17:08:14:2 INFO  [main] CodecUtil(selectCodec) - SelectCodec : c2.qti.avc.encoder
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [0] Size[30209033] 1768 x 2208
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [1] Size[244635150] 1360 x 1698
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [2] Size[191600687] 884 x 1104
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [3] Size[143150652] 804 x 1004
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [4] Size[138921925] 570 x 712
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [5] Size[214713626] 552 x 690
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [6] Size[203655243] 442 x 552
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [7] Size[61477416] 402 x 502
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [8] Size[65149761] 384 x 480
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [9] Size[14260454] 376 x 470
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [10] Size[18898471] 368 x 460
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [11] Size[10627284] 354 x 442
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [12] Size[91499133] 316 x 394
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [13] Size[18242930] 300 x 374
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [14] Size[254457283] 290 x 362
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [15] Size[6487616] 272 x 340
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [16] Size[152957305] 264 x 330
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [17] Size[233365182] 256 x 320
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [18] Size[83421983] 242 x 302
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [19] Size[244956780] 236 x 294
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [20] Size[50539573] 208 x 260
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [21] Size[97528010] 192 x 240
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [22] Size[206248507] 186 x 232
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [23] Size[43668824] 184 x 230
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(geneateVdSizeList) - [24] Size[197613233] 182 x 228
+22-07-22 17:08:14:2 DEBUG [main] BasePixel(init) - init >>>>>>>> [1768x2208] rotation=0 density:2.625
+22-07-22 17:08:14:2 DEBUG [main] ARCApplication(startControl) - start control = relayServerHost =====> 10.7.137.243
+22-07-22 17:08:14:2 DEBUG [main] ARCApplication(startControl) - start control = relayServerPort =====> 9300
+22-07-22 17:08:14:2 DEBUG [Thread-16] AbstractCommnad(initialize) - ~~ initialize ~~
+22-07-22 17:08:14:2 DEBUG [Thread-16] CommandControl(execute) - o[Thread[Thread-16,5,main]] guid = FE7AAD1A-0AB7-4371-B133-1B928E50326E
+22-07-22 17:08:14:2 DEBUG [Thread-16] CommandControl(execute) - >>>>>>>>>>>>>>> sendOpenRelay
+22-07-22 17:08:14:2 DEBUG [Thread-16] AbstractCommnad(readOpenRelay) - ~~ readOpenRelay [KPacketHeader] =>> command[0xfffffff4/-12] version[257] crc32[-354245660], size[16] type[0] guid:1AAD7AFEB70A7143B1331B928E50326E
+22-07-22 17:08:14:2 DEBUG [Thread-16] CommandControl(execute) - >>>>>>>>>>>>>>> readOpenRelay
+22-07-22 17:08:14:2 DEBUG [Thread-16] CommandControl(execute) - >>>>>>>>>>>>>>> sendConnectInfo
+22-07-22 17:08:14:3 DEBUG [Thread-16] CommandControl(readConnectInfo) - >>>>>>>>>>>>>>> readConnectInfo read [KPacketHeader] =>> command[0xfffffff3/-13] version[257] crc32[339950426], size[164] type[0]
+22-07-22 17:08:14:3 DEBUG [Thread-16] CommandControl(execute) - >>>>>>>>>>>>>>> readConnectInfo
+22-07-22 17:08:14:3 DEBUG [Thread-16] CommandControl(execute) - >>>>>>>>>>>>>>> start
+22-07-22 17:08:14:3 DEBUG [Thread-16] ARCApplication(startRemoteControl) - start remote control = FE7AAD1A-0AB7-4371-B133-1B928E50326E
+22-07-22 17:08:14:3 DEBUG [Thread-16] BasePixel(calculate) - calculate base pixel[density:2.63] >>>>>>>> [1768X2208] -> [841X1051]
+22-07-22 17:08:14:3 DEBUG [Binder:23792_3] CoreService$2(unregisterCallback) - ########## unregisterCallback
+22-07-22 17:08:14:3 DEBUG [main] CoreService(onUnbind) - # onUnbind
+22-07-22 17:08:14:3 DEBUG [Thread-16] CoreServiceManager(<init>) - -------------------------------------------------------------------------------------------------------
+22-07-22 17:08:14:3 DEBUG [Thread-16] CoreServiceManager(<init>) - [core-service-manager] --------------------------------------------------------------------------------
+22-07-22 17:08:14:3 DEBUG [Thread-16] CoreServiceManager(<init>) - -------------------------------------------------------------------------------------------------------
+22-07-22 17:08:14:3 DEBUG [Thread-16] CoreServiceManager(<init>) - emulator? false
+22-07-22 17:08:14:3 DEBUG [Thread-16] CoreServiceManager(<init>) - useInnerKnoxSdk? true
+22-07-22 17:08:14:3 DEBUG [Thread-16] CoreServiceManager(<init>) - app.isUseVirtualDisplay()? true
+22-07-22 17:08:14:3 DEBUG [Thread-16] CoreServiceManager(<init>) - app.isUseVirtualDisplayWithCore()? false
+22-07-22 17:08:14:3 DEBUG [Thread-16] CoreServiceManager(<init>) - -------------------------------------------------------------------------------------------------------
+22-07-22 17:08:14:3 DEBUG [Thread-16] CoreServiceManager(<init>) - using local core service  >>>>>> class com.ahranta.android.arc.core.CoreService
+22-07-22 17:08:14:3 INFO  [Thread-16] CoreServiceManager(startAndBindService) - starting... foreground service !!
+22-07-22 17:08:14:3 DEBUG [main] CoreService(onStartCommand) - onStartCommand()
+22-07-22 17:08:14:3 DEBUG [main] CoreService(onStartCommand) - # onStartCommand 2 buildExecutable  >> false >> foregroundService=true
+22-07-22 17:08:14:3 DEBUG [Binder:23792_3] CoreService(checkSignaturePermission) - [signature] callingPackageName >> com.ahranta.android.arc.hyundaiautoever
+22-07-22 17:08:14:3 INFO  [main] CoreServiceManager$2(onServiceConnected) - core service connected.
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication$5(onConnected) - starting core remote control.
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[0] -d
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[1] -
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[2] -r
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[3] 0
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[4] -s
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[5] 100
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[6] -n
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[7] /data/app/~~87wgWu_uqIzCuDezieiW0w==/com.ahranta.android.arc.hyundaiautoever-0vWa9dSVx9wylhTSNQL-1Q==/lib/arm
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[8] -o
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[9] 1
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[10] -m
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[11] vd
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[12] -M
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[13] 
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[14] -d
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[15] 0
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[16] -R
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[17] 10.7.137.243:9300
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[18] -g
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[19] {98ED0C97-7A10-42E2-9C69-E453B209B8EA}
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[20] -G
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[21] FE7AAD1A-0AB7-4371-B133-1B928E50326E
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[22] -c
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[23] 17
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[24] -A
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[25] 1768x2208
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[26] -a
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[27] 841x1051
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[28] -v
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[29] 1
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[30] -e
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[31] 35
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[32] -t
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[33] 10,12,16
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[34] -T
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[35] 7,8
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[36] -V
+22-07-22 17:08:14:3 DEBUG [main] ARCApplication(startArguments) - args[37] knox
+22-07-22 17:08:14:3 DEBUG [Binder:23792_3] CoreService(checkSignaturePermission) - [signature] callingPackageName >> com.ahranta.android.arc.hyundaiautoever
+22-07-22 17:08:14:3 DEBUG [Binder:23792_3] CoreService$2(startRemoteControl) - # startRemoteControl
+22-07-22 17:08:14:3 INFO  [Binder:23792_3] VDManager(setUp) - set up >> 841x1051
+22-07-22 17:08:14:3 INFO  [Binder:23792_3] CoreService(beginVirtualDisplay) - vd manager is input enabled.
+22-07-22 17:08:14:3 INFO  [Binder:23792_3] VDManager(generateVideoSize) - generateVideoSize raw[841x1051] current[841x1051 -> 841x1051]
+22-07-22 17:08:14:3 WARN  [Binder:23792_3] VDManager(generateVideoSize) - [vd] same resolution as the current one is ignored.
+22-07-22 17:08:14:3 DEBUG [main] ARCService(onCreate) - # onCreate
+22-07-22 17:08:14:3 DEBUG [main] ARCService(onStartCommand) - # onStartCommand
+22-07-22 17:08:24:3 ERROR [Thread-16] CommandControl(execute) - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:200)
+	at com.ahranta.android.arc.event.commnad.CommandControl.execute(CommandControl.java:511)
+	at com.ahranta.android.arc.event.commnad.AbstractCommnad.run(AbstractCommnad.java:290)
+22-07-22 17:08:24:3 DEBUG [Thread-16] ARCApplication(reConnnectStart) - # reConnnectStart >> FE7AAD1A-0AB7-4371-B133-1B928E50326E
+22-07-22 17:08:24:3 DEBUG [Thread-16] AbstractCommnad(close) - --------------------- FINISH ----------------------
+22-07-22 17:08:24:3 DEBUG [Thread-16] CommandControl(close) - close >> Thread[Thread-16,5,main]
+22-07-22 17:08:24:3 DEBUG [Thread-16] ARCApplication(removeCmdControl) - removeCmdControl:Thread[Thread-16,5,main] / true size:0
+22-07-22 17:08:24:3 DEBUG [Thread-16] CommandControl(close) - close >> Thread[Thread-16,5,main]
+22-07-22 17:08:24:3 DEBUG [Thread-16] ARCApplication(removeCmdControl) - removeCmdControl:Thread[Thread-16,5,main] / false size:0
+22-07-22 17:08:29:4 ERROR [main] ARCApplication$2(handleMessage) - # Start reConnecting..!!!! [WIFI] guid[FE7AAD1A-0AB7-4371-B133-1B928E50326E]
+22-07-22 17:08:29:4 DEBUG [Thread-17] AbstractCommnad(initialize) - ~~ initialize ~~
+22-07-22 17:08:29:4 DEBUG [Thread-17] CommandControl(execute) - o[Thread[Thread-17,5,main]] guid = FE7AAD1A-0AB7-4371-B133-1B928E50326E
+22-07-22 17:08:29:4 DEBUG [Thread-17] CommandControl(execute) - >>>>>>>>>>>>>>> sendOpenRelay
+22-07-22 17:08:40:2 DEBUG [Thread-17] AbstractCommnad(readOpenRelay) - ~~ readOpenRelay [KPacketHeader] =>> command[0xfffffff3/-13] version[257] crc32[197962112], size[16] type[0] guid:1AAD7AFEB70A7143B1331B928E50326E
+22-07-22 17:08:40:2 DEBUG [Thread-17] CommandControl(execute) - >>>>>>>>>>>>>>> readOpenRelay
+22-07-22 17:08:40:2 DEBUG [Thread-17] CommandControl(execute) - >>>>>>>>>>>>>>> sendConnectInfo
+22-07-22 17:08:40:2 ERROR [Thread-17] CommandControl(execute) - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:200)
+	at com.ahranta.android.arc.event.commnad.CommandControl.readConnectInfo(CommandControl.java:61)
+	at com.ahranta.android.arc.event.commnad.CommandControl.execute(CommandControl.java:484)
+	at com.ahranta.android.arc.event.commnad.AbstractCommnad.run(AbstractCommnad.java:290)
+22-07-22 17:08:40:2 DEBUG [Thread-17] ARCApplication(reConnnectStart) - # reConnnectStart >> FE7AAD1A-0AB7-4371-B133-1B928E50326E
+22-07-22 17:08:40:2 DEBUG [Thread-17] AbstractCommnad(close) - --------------------- FINISH ----------------------
+22-07-22 17:08:40:2 DEBUG [Thread-17] CommandControl(close) - close >> Thread[Thread-17,5,main]
+22-07-22 17:08:40:2 DEBUG [Thread-17] ARCApplication(removeCmdControl) - removeCmdControl:Thread[Thread-17,5,main] / true size:0
+22-07-22 17:08:40:2 DEBUG [Thread-17] CommandControl(close) - close >> Thread[Thread-17,5,main]
+22-07-22 17:08:40:2 DEBUG [Thread-17] ARCApplication(removeCmdControl) - removeCmdControl:Thread[Thread-17,5,main] / false size:0
+22-07-22 17:08:41:2 DEBUG [main] NotificationControlActivity(show) - type ==> 3
+22-07-22 17:08:41:3 DEBUG [main] ChatActivity(onStart) - ###### onStart
+22-07-22 17:08:45:2 ERROR [main] ARCApplication$2(handleMessage) - # Start reConnecting..!!!! [WIFI] guid[FE7AAD1A-0AB7-4371-B133-1B928E50326E]
+22-07-22 17:08:45:3 DEBUG [Thread-22] AbstractCommnad(initialize) - ~~ initialize ~~
+22-07-22 17:08:45:3 DEBUG [Thread-22] CommandControl(execute) - o[Thread[Thread-22,5,main]] guid = FE7AAD1A-0AB7-4371-B133-1B928E50326E
+22-07-22 17:08:45:3 DEBUG [Thread-22] CommandControl(execute) - >>>>>>>>>>>>>>> sendOpenRelay
+22-07-22 17:08:56:3 DEBUG [Thread-22] AbstractCommnad(readOpenRelay) - ~~ readOpenRelay [KPacketHeader] =>> command[0xfffffff3/-13] version[257] crc32[197962112], size[16] type[0] guid:1AAD7AFEB70A7143B1331B928E50326E
+22-07-22 17:08:56:3 DEBUG [Thread-22] CommandControl(execute) - >>>>>>>>>>>>>>> readOpenRelay
+22-07-22 17:08:56:3 DEBUG [Thread-22] CommandControl(execute) - >>>>>>>>>>>>>>> sendConnectInfo
+22-07-22 17:08:56:3 ERROR [Thread-22] CommandControl(execute) - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:200)
+	at com.ahranta.android.arc.event.commnad.CommandControl.readConnectInfo(CommandControl.java:61)
+	at com.ahranta.android.arc.event.commnad.CommandControl.execute(CommandControl.java:484)
+	at com.ahranta.android.arc.event.commnad.AbstractCommnad.run(AbstractCommnad.java:290)
+22-07-22 17:08:56:3 DEBUG [Thread-22] ARCApplication(reConnnectStart) - # reConnnectStart >> FE7AAD1A-0AB7-4371-B133-1B928E50326E
+22-07-22 17:08:56:3 DEBUG [Thread-22] AbstractCommnad(close) - --------------------- FINISH ----------------------
+22-07-22 17:08:56:3 DEBUG [Thread-22] CommandControl(close) - close >> Thread[Thread-22,5,main]
+22-07-22 17:08:56:3 DEBUG [Thread-22] ARCApplication(removeCmdControl) - removeCmdControl:Thread[Thread-22,5,main] / true size:0
+22-07-22 17:08:56:3 DEBUG [Thread-22] CommandControl(close) - close >> Thread[Thread-22,5,main]
+22-07-22 17:08:56:3 DEBUG [Thread-22] ARCApplication(removeCmdControl) - removeCmdControl:Thread[Thread-22,5,main] / false size:0
+22-07-22 17:09:01:3 ERROR [main] ARCApplication$2(handleMessage) - # Start reConnecting..!!!! [WIFI] guid[FE7AAD1A-0AB7-4371-B133-1B928E50326E]
+22-07-22 17:09:01:3 DEBUG [Thread-25] AbstractCommnad(initialize) - ~~ initialize ~~
+22-07-22 17:09:01:3 DEBUG [Thread-25] CommandControl(execute) - o[Thread[Thread-25,5,main]] guid = FE7AAD1A-0AB7-4371-B133-1B928E50326E
+22-07-22 17:09:01:3 DEBUG [Thread-25] CommandControl(execute) - >>>>>>>>>>>>>>> sendOpenRelay
+22-07-22 17:09:12:3 DEBUG [Thread-25] AbstractCommnad(readOpenRelay) - ~~ readOpenRelay [KPacketHeader] =>> command[0xfffffff3/-13] version[257] crc32[197962112], size[16] type[0] guid:1AAD7AFEB70A7143B1331B928E50326E
+22-07-22 17:09:12:3 DEBUG [Thread-25] CommandControl(execute) - >>>>>>>>>>>>>>> readOpenRelay
+22-07-22 17:09:12:3 DEBUG [Thread-25] CommandControl(execute) - >>>>>>>>>>>>>>> sendConnectInfo
+22-07-22 17:09:12:3 ERROR [Thread-25] CommandControl(execute) - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:200)
+	at com.ahranta.android.arc.event.commnad.CommandControl.readConnectInfo(CommandControl.java:61)
+	at com.ahranta.android.arc.event.commnad.CommandControl.execute(CommandControl.java:484)
+	at com.ahranta.android.arc.event.commnad.AbstractCommnad.run(AbstractCommnad.java:290)
+22-07-22 17:09:12:3 DEBUG [Thread-25] ARCApplication(reConnnectStart) - # reConnnectStart >> FE7AAD1A-0AB7-4371-B133-1B928E50326E
+22-07-22 17:09:12:3 DEBUG [Thread-25] AbstractCommnad(close) - --------------------- FINISH ----------------------
+22-07-22 17:09:12:3 DEBUG [Thread-25] CommandControl(close) - close >> Thread[Thread-25,5,main]
+22-07-22 17:09:12:3 DEBUG [Thread-25] ARCApplication(removeCmdControl) - removeCmdControl:Thread[Thread-25,5,main] / true size:0
+22-07-22 17:09:12:3 DEBUG [Thread-25] CommandControl(close) - close >> Thread[Thread-25,5,main]
+22-07-22 17:09:12:3 DEBUG [Thread-25] ARCApplication(removeCmdControl) - removeCmdControl:Thread[Thread-25,5,main] / false size:0
+22-07-22 17:09:17:3 ERROR [main] ARCApplication$2(handleMessage) - # Start reConnecting..!!!! [WIFI] guid[FE7AAD1A-0AB7-4371-B133-1B928E50326E]
+22-07-22 17:09:17:3 DEBUG [Thread-28] AbstractCommnad(initialize) - ~~ initialize ~~
+22-07-22 17:09:17:3 DEBUG [Thread-28] CommandControl(execute) - o[Thread[Thread-28,5,main]] guid = FE7AAD1A-0AB7-4371-B133-1B928E50326E
+22-07-22 17:09:17:3 DEBUG [Thread-28] CommandControl(execute) - >>>>>>>>>>>>>>> sendOpenRelay
+22-07-22 17:09:28:2 DEBUG [Thread-28] AbstractCommnad(readOpenRelay) - ~~ readOpenRelay [KPacketHeader] =>> command[0xfffffff3/-13] version[257] crc32[197962112], size[16] type[0] guid:1AAD7AFEB70A7143B1331B928E50326E
+22-07-22 17:09:28:2 DEBUG [Thread-28] CommandControl(execute) - >>>>>>>>>>>>>>> readOpenRelay
+22-07-22 17:09:28:2 DEBUG [Thread-28] CommandControl(execute) - >>>>>>>>>>>>>>> sendConnectInfo
+22-07-22 17:09:28:2 ERROR [Thread-28] CommandControl(execute) - 
+java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:200)
+	at com.ahranta.android.arc.event.commnad.CommandControl.readConnectInfo(CommandControl.java:61)
+	at com.ahranta.android.arc.event.commnad.CommandControl.execute(CommandControl.java:484)
+	at com.ahranta.android.arc.event.commnad.AbstractCommnad.run(AbstractCommnad.java:290)
+22-07-22 17:09:28:2 DEBUG [Thread-28] ARCApplication(reConnnectStart) - # reConnnectStart >> FE7AAD1A-0AB7-4371-B133-1B928E50326E
+22-07-22 17:09:28:2 DEBUG [Thread-28] AbstractCommnad(close) - --------------------- FINISH ----------------------
+22-07-22 17:09:28:2 DEBUG [Thread-28] CommandControl(close) - close >> Thread[Thread-28,5,main]
+22-07-22 17:09:28:2 DEBUG [Thread-28] ARCApplication(removeCmdControl) - removeCmdControl:Thread[Thread-28,5,main] / true size:0
+22-07-22 17:09:28:2 DEBUG [Thread-28] CommandControl(close) - close >> Thread[Thread-28,5,main]
+22-07-22 17:09:28:2 DEBUG [Thread-28] ARCApplication(removeCmdControl) - removeCmdControl:Thread[Thread-28,5,main] / false size:0
+22-07-22 17:09:33:3 DEBUG [Binder:23792_3] CoreService(checkSignaturePermission) - [signature] callingPackageName >> com.ahranta.android.arc.hyundaiautoever
+22-07-22 17:09:33:3 DEBUG [Binder:23792_3] CoreService$2(stopRemoteControl) - # stopRemoteControl
+22-07-22 17:09:34:2 DEBUG [main] ARCApplication(forceShutdown) - # forceShutdown
+22-07-22 17:09:34:2 INFO  [main] ARCApplication(rPenclear) - # clear rpen.
+22-07-22 17:09:34:2 DEBUG [main] CoreServiceManager(stop) - closed Core Service !!!!
+22-07-22 17:09:34:2 DEBUG [main] ARCApplication(forceShutdown) - # forceShutdown
+22-07-22 17:09:34:2 INFO  [main] ARCApplication(rPenclear) - # clear rpen.
+22-07-22 17:09:34:2 INFO  [main] CoreServiceManager$2(onServiceDisconnected) - core service disconnected.
+22-07-22 17:09:34:2 WARN  [main] ARCApplication$5(onDisConnected) - core service is disconnected.
+22-07-22 17:09:34:2 DEBUG [main] ARCService$DefaultHandler(handleMessage) - handleMessage:2
+22-07-22 17:09:34:2 DEBUG [main] ARCService(remoteControlEnd) - [called remoteControlEnd]
+22-07-22 17:09:34:2 DEBUG [main] ARCService(onDestroy) - # onDestroy
+22-07-22 17:14:52:4 DEBUG [main] ChatActivity(onDestroy) - onDestroy()
