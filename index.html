@@ -6,11 +6,13 @@
     <script>
         function DoIosFunction()
         {
+             window.webkit.messageHandlers.outLink.postMessage("ASDASD");
             window.webkit.messageHandlers.callbackHandler.postMessage("Hello, world!");
         }
         
         function DoIosFunction2()
         {
+            window.webkit.messageHandlers.outLink.postMessage("ASDASD");
             window.webkit.messageHandlers.callbackHandler2.postMessage("Hello, world!");
         }
         
